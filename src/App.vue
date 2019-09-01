@@ -80,7 +80,7 @@
     bottom: 0;
     width: 100%;
   }
-  /*.space {*/
-  /*  margin-bottom: 60px;*/
-  /*}*/
+  .space {
+    margin-bottom: 60px;
+  }
 </style>

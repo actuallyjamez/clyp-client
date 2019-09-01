@@ -12,10 +12,9 @@
       dark
     >
       <v-toolbar-title>Clyp Featured</v-toolbar-title>
-      <div class="flex-grow-1"></div>
+<!--      <div class="flex-grow-1"></div>-->
     </v-app-bar>
-    <v-content
-      class="fill-height" >
+    <v-content style="height: 100%" >
       <v-row>
         <v-col v-bind:key="item.AudioFileId" v-for="item in featured" >
           <v-card
